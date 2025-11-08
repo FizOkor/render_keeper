@@ -11,9 +11,3 @@ Render’s free tier puts web services to sleep after a short period of inactivi
 - Customizable interval time
 - Console logs with timestamps
 - Optional GitHub Actions workflow for free scheduled pings
-
-## ⚙️ Setup
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/render-keep.git
-   cd render-keep
