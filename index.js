@@ -10,4 +10,5 @@ const interval = 1200000;
     .then(response => console.log("✅ Response:", response.status))
     .catch(err => console.log("❌ Error:", err.message))
   }, interval)
+  console.log('\n')
 })();
