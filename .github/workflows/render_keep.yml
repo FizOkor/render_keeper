@@ -1,0 +1,13 @@
+name: Render Keep
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # manual trigger
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Render URL
+        run: curl -I https://d-arena.onrender.com
